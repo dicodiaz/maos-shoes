@@ -11,3 +11,12 @@
 .navbar-nav .active {
   text-decoration: underline !important;
 }
+
+.carousel-indicators {
+  bottom: auto;
+  top: 10px;
+}
+
+.carousel-image {
+  max-width: 600px;
+}

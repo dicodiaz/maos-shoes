@@ -1,8 +1,8 @@
 {
-  "name": "react-redux-setup",
+  "name": "maos-shoes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dicodiaz.me/react-redux-setup",
+  "homepage": "https://dicodiaz.me/maos-shoes",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -20,6 +20,7 @@
     "redux": "^4.1.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.0",
+    "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

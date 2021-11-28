@@ -1,10 +1,10 @@
 import { applyMiddleware, combineReducers, createStore } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
-import counterReducer from './ducks/counter';
+import shoppingCartReducer from './ducks/shoppingCart';
 
 const reducer = combineReducers({
-  counterReducer,
+  shoppingCartReducer,
 });
 
 const store = createStore(reducer, applyMiddleware(logger, thunk));
